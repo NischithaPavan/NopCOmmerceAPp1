@@ -11,7 +11,7 @@ class VerifyCatalogCheckbox:
     def __init__(self,driver):
         self.driver=driver
 
-    def clickCatalogMenu(self):
+    def clickCatalogMenu(self): ############# Catalog Comments
         self.driver.find_element(By.XPATH,self.Catalog_text_xpath).click()
 
     def clickOnProduct(self):
